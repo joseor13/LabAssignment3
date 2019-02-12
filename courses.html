@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Courses</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+        }
+
+        html,
+        body {
+            height: 100vh;
+            width: 100vw;
+            background-color: #ccc;
+        }
+
+        .Main-container-grid {
+            display: grid;
+            grid-template-rows: 1fr 13fr 1fr;
+            grid-row-gap: 1em;
+        }
+
+        .r1 {
+            background-color: brown;
+        }
+
+        .r2 {
+            background-color: blanchedalmond;
+        }
+
+        .r3 {
+            background-color: rgb(147, 21, 219);
+        }
+
+        .r1,
+        .r2,
+        .r3 {
+            display: grid;
+            grid-template-rows: 1fr 5fr 2fr;
+            grid-row-gap: 1em;
+        }
+        .left-nav {
+
+        }
+        .left-nav> li {
+
+        }
+        .left-nav >li > a {
+            display: block;
+            padding: 15px;
+        }
+        .r2c1, .r2c3 {
+            background-color: #ccc;
+        }
+        .course-table {
+            table-layout: fixed;
+            width: 100%
+        }
+        .course-table >thead > tr {
+            height: 50px;
+            text-align: center;
+        }
+        .course-table >tbody > tr {
+border: 1px solid #a6a6a6;
+        }
+        .course-table >thead > tr > td {
+            font-size: 14px;
+            font-weight: bold;
+            border: 1px solid #8ae2b6; 
+            background-color: aquamarine
+        }
+    </style>
+</head>
+
+<body class="Main-container-grid">
+    <div class="r1">
+        <div>
+            <h2> Jose Rosales</h2>
+        </div>
+        <div>
+            r1c2
+        </div>
+        <div>
+            r1c3
+        </div>
+    </div>
+    <div class="r2">
+        <div class="r2c1">
+            <ul class="left-nav">
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+                <li><a href="#">Link 5</a></li>
+                <li><a href="#">Link 6</a></li>
+                <li><a href="#">Link 7</a></li>
+            </ul>
+        </div>
+        <div class="r2c2">
+            <table class="course-table">
+                <thead>
+                    <tr>
+                        <td>Courses</td>
+                        <td>Section</td>
+                        <td>Instructor</td>
+                        <td>Days</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                            <td>IS151</td>
+                            <td>1234</td>
+                            <td>Lucas Phan</td>
+                            <td>M-W</td>
+                    </tr>
+                    <tr>
+                            <td>IS183</td>
+                            <td>4321</td>
+                            <td>Lucas Phan</td>
+                            <td>T-TH</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="r2c3">
+            <h2>Right Navigation</h2>
+        </div>
+    </div>
+    <div class="r3">
+        <div>
+            r3c1
+        </div>
+        <div>
+            r3c2
+        </div>
+        <div>
+            r3c3
+        </div>
+    </div>
+
+
+</body>
+
+</html>
