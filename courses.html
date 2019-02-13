@@ -14,41 +14,50 @@
         body {
             height: 100vh;
             width: 100vw;
-            background-color: #ccc;
+          
         }
 
-        .Main-container-grid {
+        .main-container-grid {
             display: grid;
             grid-template-rows: 1fr 13fr 1fr;
             grid-row-gap: 1em;
         }
+        .logo-name {
+            line-height: 50px;
+            margin-left: 10px;
+        }
 
         .r1 {
-            background-color: brown;
+            background-color:#ccc;
+            width: 100%;
         }
 
         .r2 {
-            background-color: blanchedalmond;
+            background-color: rgb(214, 193, 162);
+            width: 80%;
+            margin-left: 150px;
         }
 
         .r3 {
-            background-color: rgb(147, 21, 219);
+            background-color: #ccc;
+            width: 100%;
         }
 
         .r1,
         .r2,
         .r3 {
             display: grid;
-            grid-template-rows: 1fr 5fr 2fr;
+            grid-template-columns: 1fr 5fr 2fr;
             grid-row-gap: 1em;
         }
         .left-nav {
 
         }
-        .left-nav> li {
-
+        .left-nav > li {
+        background-color: #ccc;
+        list-style-type: none;
         }
-        .left-nav >li > a {
+        .left-nav > li > a {
             display: block;
             padding: 15px;
         }
@@ -63,23 +72,21 @@
             height: 50px;
             text-align: center;
         }
-        .course-table >tbody > tr {
-border: 1px solid #a6a6a6;
+        .course-table > tbody > tr {
+         border: 1px solid #a6a6a6;
         }
-        .course-table >thead > tr > td {
+        .course-table > thead > tr > td {
             font-size: 14px;
             font-weight: bold;
-            border: 1px solid #8ae2b6; 
+            border: 1px solid #e20d0d; 
             background-color: aquamarine
         }
     </style>
 </head>
 
-<body class="Main-container-grid">
+<body class="main-container-grid">
     <div class="r1">
-        <div>
-            <h2> Jose Rosales</h2>
-        </div>
+            <h2 class="logo-name"> Jose Rosales</h2>
         <div>
             r1c2
         </div>
@@ -140,8 +147,6 @@ border: 1px solid #a6a6a6;
             r3c3
         </div>
     </div>
-
-
 </body>
 
 </html>
