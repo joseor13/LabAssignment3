@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <style>
+            * {
+                margin: 0px;
+                padding: 0px;
+                position: relative;
+            }
+            html, body {
+                width: 100vw;
+                height: 100vh;
+            }
+            .r2 {
+                display: grid;
+            }
+            .r1, .r3 {
+                background-color: aquamarine;
+                grid-column-gap: 1em;
+                display: grid;
+                grid-template-columns: 1fr 5fr 1fr;
+            
+            }
+            .r3 > p {
+              align-self: center;
+              justify-self: center;
+            }
+            .login-form {
+                display: grid;
+                justify-self: center;
+                align-self: center;
+                width: 450px;
+                height: 450px;
+                background-color: blanchedalmond;
+                padding: 15px;
+                grid-template-rows: 5fr 1fr 1fr 1fr;
+                grid-row-gap: 1em;
+            }
+            .login-container-grid {
+                display: grid;
+                grid-template-rows: 1fr 13fr 1fr;
+                
+            }
+            .logo-name {
+                line-height: 50px;
+                margin-left: 10px;
+                align-self: center;
+                grid-template-rows: 5fr 1fr 1fr
+            }
+            .btn-login {
+                width: 80px;
+                float: right;
+                justify-self: right;
+                font-weight: bold;
+                font-size: 18;
+                background-color: brown;
+                color: white;
+            }
+            .login-input {
+                padding: 15px;
+                font-size: 18px;
+            }
+        </style>
+    </head>
+    <body class="login-container-grid">
+        <div class="r1">
+            <h1 class="logo-name">Jose Rosales</h1>
+        </div>
+        <div class="r2">
+            <form class="login-form">
+                <img class="login-logo" sct="#" alt="Logo">
+                <input type="text" class="login-input" placeholder="Username">
+                <input type="password" class="login-input" placeholder="Password">
+                <button type="submit" class="btn-login">Login</button>
+            </form>
+        </div>
+        <div class="r3">
+            <div></div>
+               <p> Copyright (C) 2019. Created by Jose Rosales</p>
+                <div></div>
+        </div>
+    
+    </body>
+
+</html>
