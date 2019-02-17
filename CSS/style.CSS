@@ -38,15 +38,18 @@ a {
 
 }
 
-.main-header,
-.main-footer {
+.main-header {
     height: 75px;
     width: 100vw;
-    background-color: #cfe7d1;
+    background-color: #080808;
+}
+.main-footer {
+    background-color: #080808;
+    width: 100vw;
 }
 
 .main-container {
-    height: calc(100vh - 150px);
+    height: calc(100vh - 130px);
     width: 80vw;
     margin: 0px auto;
 }
@@ -143,6 +146,6 @@ a {
 .footer-text {
     text-align: center;
     display: block;
-    padding: 20px;
-
+    padding: 25px;
+    color: white;
 }
