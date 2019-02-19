@@ -24,6 +24,10 @@ a {
     -moz-box-shadow: 0px 1px 9px 4px rgba(140, 171, 139, 1);
     box-shadow: 0px 1px 9px 4px rgba(140, 171, 139, 1);
 }
+.logo-text > img {
+    width: 100vw;
+    height: 75px;
+}
 
 .grow {
     transition: all .2s ease-in-out;
@@ -39,7 +43,7 @@ a {
 }
 
 .main-header {
-    height: 75px;
+    height: 90px;
     width: 100vw;
     background-color: #080808;
 }
@@ -49,7 +53,7 @@ a {
 }
 
 .main-container {
-    height: calc(100vh - 130px);
+    height: calc(100vh - 145px);
     width: 80vw;
     margin: 0px auto;
 }
@@ -100,14 +104,6 @@ a {
     width: 210px;
     height: 180px;
     margin: 10px;
-}
-
-.logo-text {
-    display: block;
-    padding: 20px;
-    font-weight: bold;
-    font-size: 35px;
-    font-style: italic
 }
 
 .sidebar>ul {

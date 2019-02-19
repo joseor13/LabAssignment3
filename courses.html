@@ -28,16 +28,19 @@
             display: grid;
             grid-template-rows: 1fr 13fr 1fr;
             grid-row-gap: 1em;
-            background-image: url('../img/bg_background.jpg');
+            background-image: url('./img/bg_background.jpg');
         }
         .logo-name {
-            line-height: 50px;
-            margin-left: 10px;
+         align-self: center;
         }
 
         .r1 {
             background-color:#ccc;
             width: 100%;
+        }
+        .r1>img {
+            width: 1535px;
+            height: 150px;
         }
 
         .r2 {
@@ -47,8 +50,9 @@
         }
 
         .r3 {
-            background-color: #ccc;
+            background-color: black;
             width: 100%;
+            color: white;
         }
 
         .r1,
@@ -109,21 +113,24 @@
             border: 1px solid red;
             background-color: lightblue;
         }
+        .copy-right-text {
+            justify-self: center;
+            align-self: center;
+        }
+        .box-shadow {
+            -webkit-box-shadow: 0px 0px 46px 4px rgba(131, 207, 164, 1);
+            -moz-box-shadow: 0px 0px 46px 4px rgba(131, 207, 164, 1);
+            box-shadow: 0px 0px 46px 4px rgba(131, 207, 164, 1);
+        }
 
     </style>
 </head>
 
 <body class="main-container-grid">
-    <div class="r1">
-            <h2 class="logo-name"> Jose Rosales</h2>
-        <div>
-            r1c2
-        </div>
-        <div>
-            r1c3
-        </div>
+    <div class="r1 box-shadow">
+        <img class="logo-name" src="./img/logo_name1.gif" alt="logo name">
     </div>
-    <div class="r2">
+    <div class="r2 box-shadow">
         <div class="r2c1">
             <ul class="left-nav">
                 <li><a href="./index.html">Home</a></li>
@@ -185,15 +192,15 @@
             <p>some text here</p>
         </div>
     </div>
-    <div class="r3">
+    <div class="r3 box-shadow">
         <div>
-            r3c1
+            
+        </div>
+        <div class="copy-right-text">
+            Copyright (C) 2019. Created by Jose Rosales
         </div>
         <div>
-            r3c2
-        </div>
-        <div>
-            r3c3
+            
         </div>
     </div>
 </body>
