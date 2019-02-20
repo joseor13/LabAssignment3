@@ -3,129 +3,8 @@
 
 <head>
     <title>Courses</title>
-    <style>
-        * {
-            margin: 0px;
-            padding: 0px;
-            position: relative;
-        }
-
-        html,
-        body {
-            height: 100vh;
-            width: 100vw;
-          
-        }
-        .sub-heading, .nav-heading{
-            margin: 10px 0px 15px;
-            padding: 5px 20px;
-        }
-        .nav-heading {
-            text-align: center;
-        }
-
-        .main-container-grid {
-            display: grid;
-            grid-template-rows: 1fr 13fr 1fr;
-            grid-row-gap: 1em;
-            background-image: url('./img/bg_background.jpg');
-        }
-        .logo-name {
-         align-self: center;
-        }
-
-        .r1 {
-            background-color:#ccc;
-            width: 100%;
-        }
-        .r1>img {
-            width: 1535px;
-            height: 150px;
-        }
-
-        .r2 {
-            background-color: rgb(160, 212, 160);
-            width: 90%;
-            margin: 0px auto;
-        }
-
-        .r3 {
-            background-color: black;
-            width: 100%;
-            color: white;
-        }
-
-        .r1,
-        .r2,
-        .r3 {
-            display: grid;
-            grid-template-columns: 1fr 5fr 2fr;
-            grid-row-gap: 1em;
-        }
-        .r2c3 {
-            padding: 0px 15px 10px;
-        }
-        .left-nav {
-            list-style-type: none;
-        }
-        .left-nav > li {
-           border: 1px solid red;
-           background-color: #ffedcc;
-        
-        }
-        .left-nav > li > a {
-            display: block;
-            padding: 15px;
-            text-decoration: none;
-            transition-duration: 0.5ms;
-            text-transform: capitalize;
-        }
-        .left-nav > li > a:hover {
-            background-color: rgb(11, 236, 11)
-        }
-        .r2c1, .r2c3 {
-            background-color: #ffedcc;
-        }
-
-        .course-table {
-            table-layout: fixed;
-            width: 100%;
-            padding: 0px 20px;
-        }
-        .course-table >thead > tr {
-            height: 50px;
-            text-align: center;
-        }
-        .course-table > tbody > tr {
-         height: 45px;
-         text-align: center;
-
-        }
-        .course-table > thead > tr > td {
-            font-size: 14px;
-            font-weight: bold;
-            border: 1px solid #e20d0d; 
-            background-color: rgb(5, 12, 66);
-            color: white;
-        }
-        .course-table > tbody > tr > td {
-            font-size: 14px;
-            border: 1px solid red;
-            background-color: lightblue;
-        }
-        .copy-right-text {
-            justify-self: center;
-            align-self: center;
-        }
-        .box-shadow {
-            -webkit-box-shadow: 0px 0px 46px 4px rgba(131, 207, 164, 1);
-            -moz-box-shadow: 0px 0px 46px 4px rgba(131, 207, 164, 1);
-            box-shadow: 0px 0px 46px 4px rgba(131, 207, 164, 1);
-        }
-
-    </style>
+    <link rel="stylesheet" href="./css/courses.css">
 </head>
-
 <body class="main-container-grid">
     <div class="r1 box-shadow">
         <img class="logo-name" src="./img/logo_name1.gif" alt="logo name">
@@ -135,10 +14,8 @@
             <ul class="left-nav">
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./courses.html">Courses</a></li>
-                <li><a href="#">Link 3</a></li>
-                <li><a href="#">Link 4</a></li>
-                <li><a href="#">Link 5</a></li>
-                <li><a href="#">Link 6</a></li>
+                <li><a href="https://blackboard.learn.fresnostate.edu" target="_blank">Blackboard</a></il>
+                <li><a href="https://my.fresnostate.edu/" target="_blank">My Fresno State</a></li>
                 <li><a href="./login.html">Login</a></li>
             </ul>
         </div>
@@ -155,52 +32,59 @@
                 </thead>
                 <tbody>
                     <tr>
-                            <td>IS151</td>
-                            <td>1234</td>
-                            <td>Lucas Phan</td>
-                            <td>M-W</td>
+                        <td>IS151</td>
+                        <td>1234</td>
+                        <td>Lucas Phan</td>
+                        <td>M-W</td>
                     </tr>
                     <tr>
-                            <td>IS183</td>
-                            <td>4321</td>
-                            <td>Lucas Phan</td>
-                            <td>T-TH</td>
+                        <td>IS183</td>
+                        <td>4321</td>
+                        <td>Lucas Phan</td>
+                        <td>T-TH</td>
                     </tr>
                     <tr>
-                            <td>IS151</td>
-                            <td>4321</td>
-                            <td>Lucas Phan</td>
-                            <td>M-W</td>
+                        <td>IS151</td>
+                        <td>4321</td>
+                        <td>Lucas Phan</td>
+                        <td>M-W</td>
                     </tr>
                     <tr>
-                            <td>IS183</td>
-                            <td>4321</td>
-                            <td>Lucas Phan</td>
-                            <td>T-TH</td>
+                        <td>IS183</td>
+                        <td>4321</td>
+                        <td>Lucas Phan</td>
+                        <td>T-TH</td>
                     </tr>
                     <tr>
-                            <td>IS152</td>
-                            <td>4321</td>
-                            <td>Lucas Phan</td>
-                            <td>M-W</td>
+                        <td>IS152</td>
+                        <td>4321</td>
+                        <td>Lucas Phan</td>
+                        <td>M-W</td>
                     </tr>
                 </tbody>
             </table>
         </div>
         <div class="r2c3">
-            <h2 class="nav-heading">Right Navigation</h2>
-            <p>some text here</p>
+            <h2 class="nav-heading">Graphic Designs</h2>
+            <div class="nav-images">
+                <tr>
+                    <img class="first-img" src="./img/sm_nav1.jpg" alt="first image">
+                </tr>
+                <tr>
+                    <img class="second-img" src="./img/bg_background_sign_in.jpg" alt="first image">
+                </tr>
+            </div>
         </div>
     </div>
     <div class="r3 box-shadow">
         <div>
-            
+
         </div>
         <div class="copy-right-text">
             Copyright (C) 2019. Created by Jose Rosales
         </div>
         <div>
-            
+
         </div>
     </div>
 </body>

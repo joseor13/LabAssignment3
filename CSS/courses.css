@@ -1,0 +1,155 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sub-heading,
+.nav-heading {
+    margin: 10px 0px 15px;
+    padding: 5px 20px;
+}
+
+.nav-heading {
+    text-align: center;
+}
+
+.main-container-grid {
+    display: grid;
+    grid-template-rows: 1fr 13fr 1fr;
+    grid-row-gap: 1em;
+    background-image: url('../img/bg_background.jpg');
+}
+
+.logo-name {
+    align-self: center;
+}
+
+.r1 {
+    background-color: #ccc;
+    width: 100%;
+}
+
+.r1>img {
+    width: 1535px;
+    height: 150px;
+}
+
+.r2 {
+    background-color: rgb(160, 212, 160);
+    width: 90%;
+    margin: 0px auto;
+}
+
+.r3 {
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+
+.r1,
+.r2,
+.r3 {
+    display: grid;
+    grid-template-columns: 1fr 5fr 2fr;
+    grid-row-gap: 1em;
+}
+
+.nav-images {
+    display: block;
+    align-self: center;
+    padding: 0px 10px;
+}
+
+.first-img {
+    padding: 15px 0px;
+}
+
+.nav-images>img {
+    width: 300px;
+    height: 200px;
+}
+
+.r2c3 {
+    padding: 0px 15px 10px;
+}
+
+.left-nav {
+    list-style-type: none;
+}
+
+.left-nav>li {
+    border: 1px solid red;
+    background-color: #ffedcc;
+
+}
+
+.left-nav>li>a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    transition-duration: 0.5ms;
+    text-transform: capitalize;
+}
+
+.left-nav>li>a:hover {
+    background-color: rgb(11, 236, 11)
+}
+
+.r2c1,
+.r2c3 {
+    background-color: #ffedcc;
+}
+
+.course-table {
+    table-layout: fixed;
+    width: 100%;
+    padding: 0px 20px;
+}
+
+.course-table>thead>tr {
+    height: 50px;
+    text-align: center;
+}
+
+.course-table>tbody>tr {
+    height: 45px;
+    text-align: center;
+
+}
+
+.course-table>thead>tr>td {
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #e20d0d;
+    background-color: rgb(5, 12, 66);
+    color: white;
+}
+
+.course-table>tbody>tr>td {
+    font-size: 14px;
+    border: 1px solid red;
+    background-color: lightblue;
+}
+
+.copy-right-text {
+    justify-self: center;
+    align-self: center;
+}
+
+.box-shadow {
+    -webkit-box-shadow: 0px 0px 46px 4px rgba(131, 207, 164, 1);
+    -moz-box-shadow: 0px 0px 46px 4px rgba(131, 207, 164, 1);
+    box-shadow: 0px 0px 46px 4px rgba(131, 207, 164, 1);
+}
