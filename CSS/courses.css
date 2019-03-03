@@ -98,7 +98,6 @@ a {
 .left-nav>li>a {
     display: block;
     padding: 15px;
-    text-decoration: none;
     transition-duration: 0.5ms;
     text-transform: capitalize;
 }
