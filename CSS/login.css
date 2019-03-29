@@ -38,15 +38,13 @@ body {
 }
 
 .login-form {
-    display: grid;
     justify-self: center;
     align-self: center;
     width: 420px;
     height: 420px;
     background-image: url('../img/bg_back_sign_in.jpg');
     padding: 15px;
-    grid-template-rows: 5fr 1fr 1fr 1fr;
-    grid-row-gap: 1em;
+    
 }
 
 .login-container-grid {
@@ -63,10 +61,10 @@ body {
     width: 360px;
     height: 250px;
     justify-self: center;
+    margin-left:30px;
 }
 
 .btn-login {
-    width: 100px;
     float: right;
     justify-self: right;
     font-weight: bold;
@@ -74,6 +72,9 @@ body {
     background-color: rgb(206, 113, 26);
     color: white;
     margin-right: 25px;
+    height: 40px;
+    width: 100px;
+    display:block;
 }
 
 .login-input {
@@ -81,6 +82,16 @@ body {
     font-size: 12px;
     width: 330px;
     justify-self: center;
+    margin: 7px 30px;
+}
+.error-message {
+    background-color: black;
+    color: yellow;
+    padding: 7px;
+    margin: 5px 20px;
+    display: block;
+    display: none;
+    width: 110px;
 }
 
 .box-shadow {
